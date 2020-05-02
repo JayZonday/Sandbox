@@ -32,7 +32,7 @@ class Postform extends Component {
   render(){
 
     return(
-      <div>
+      <div className='formarea'>
         <h1> Add Post </h1>
         <form onSubmit={this.onSubmit}>
           <div>
