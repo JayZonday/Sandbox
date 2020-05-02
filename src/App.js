@@ -3,6 +3,7 @@ import store from './store'
 import { Provider } from 'react-redux'
 
 import Posts from './components/Posts'
+import Navbar from './components/navbar'
 import Postform from './components/Postform'
 import './App.css';
 
@@ -13,7 +14,8 @@ class App extends Component{
     return (
       <Provider store={store}>
         <div className="App">
-          SANDBOX
+          <Navbar/>
+          <h1><b>SANDBOX</b></h1>
           <Postform/>
           <hr/>
           <Posts/>
