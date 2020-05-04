@@ -1,11 +1,21 @@
+.navbar{
+  background: rgba(137, 196, 244, 1);
+  width: 100%;
+}
 .nav-btn{
-  border-radius: 0% !important;
-  border: 1px solid white;
+  border-radius: 2% !important;
+  border: none;
+  border-bottom: 1px solid rgba(137, 196, 244, 1);
   margin-left: 5%;
   width: 15%;
   font-size: 18px;
-  background: white !important;
+  font-family: 'Hind Madurai', sans-serif;
+  background: rgba(137, 196, 244, 1) !important;
+  transition: .25s ease-in-out;
+
 }
 .nav-btn:hover{
+  font-weight: 700;
   border-bottom: 1px solid black;;
+  background: rgba(137, 196, 244, 1) !important;
 }

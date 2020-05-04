@@ -1,8 +1,15 @@
 .App {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
-
+.title{
+  font-family: 'Righteous', cursive;
+  margin-left: 2%;
+  color:white;
+}
+.title-box{
+  background: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -8,4 +8,9 @@
   border: 1px solid black;
   margin: 1%;
   padding: 2%;
+  font-family: 'Dancing Script', cursive;
+  transition: .25s ease-in-out;
+}
+.post:hover{
+  background: rgba(137, 196, 244, 1);
 }

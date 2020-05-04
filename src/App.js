@@ -23,8 +23,9 @@ class App extends Component{
 
         <div className="App">
           <Navbar/>
-          <h1><b>SANDBOX</b></h1>
-
+          <div className='title-box'>
+            <h1 className='title'><b>SANDBOX</b></h1>
+          </div>
           <hr/>
         </div>
 
